@@ -98,7 +98,7 @@ header {
 }
 .img {
    width: 20%;
-   background: url("/img/brain.jpg") no-repeat;
+   background: url("../img/brain.jpg") no-repeat;
    background-position: center;
    background-size: cover;
 }
