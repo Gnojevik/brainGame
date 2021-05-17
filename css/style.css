@@ -92,8 +92,15 @@ body {
 }
 
 header {
+   display: flex;
    background-color: black;
-   min-height: 100px;
+   min-height: 300px;
+}
+.img {
+   width: 20%;
+   background: url("/img/brain.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 main {
    display: flex;
