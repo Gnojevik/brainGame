@@ -5,9 +5,11 @@ let count = 0;
 let lvl = 11;
 let total = 0;
 let start = document.getElementById('start');
-let ulAnswer = document.getElementById('answer');
-ulAnswer.onselectstart = function () { return false };
-ulAnswer.onmousedown = function () { return false };
+// let ulAnswer = document.getElementById('answer');
+// ulAnswer.onselectstart = function () { return false };
+// ulAnswer.onmousedown = function () { return false };
+document.body.onselectstart = function () { return false };
+document.body.onmousedown = function () { return false };
 start.addEventListener('click', goGame);
 
 
