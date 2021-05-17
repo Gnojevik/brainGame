@@ -120,6 +120,7 @@ main {
    color: ghostwhite;
    border-radius: 5px;
    box-shadow: inset -2px -2px 0px black;
+   margin: 0 10px;
 }
 .button:active {
    box-shadow: inset -2px -2px 5px black;
@@ -129,12 +130,6 @@ main {
 .ans {
    display: flex;
    margin: 15px 0;
-}
-li {
-   margin: 0 10px;
-}
-li:hover {
-   cursor: pointer;
 }
 
 .que {

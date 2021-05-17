@@ -66,8 +66,8 @@ function quest(lvl) {
    let order1 = Math.floor(Math.random() * 2) + 1;
    let order2 = (order1 > 1) ? 1 : 2;
    que.innerText = `${a}+${b}=?`;
-   answer.innerHTML = `<li id="buttonTrue" class="button" style="order:${order1};">${a + b}</li>
-   <li id="buttonFalse" class="button" style="order:${order2} ">${randomArr()}</li>`;
+   answer.innerHTML = `<button id="buttonTrue" class="button" style="order:${order1};">${a + b}</button>
+   <button id="buttonFalse" class="button" style="order:${order2} ">${randomArr()}</button>`;
    totalCount.innerText = `score: ${total}`;
    trueOrFalse();
    function randomArr() {
